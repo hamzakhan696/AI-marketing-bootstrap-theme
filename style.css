@@ -279,6 +279,11 @@ section-3 */
 .circle-icons i{
     font-size: 13px;
 }
+@media screen and (max-width: 992px) {
+    .circle-icons {
+        margin-top: 10%;
+    }
+}
 
 /* section-5 */
 .section-5 h1{
