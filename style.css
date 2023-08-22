@@ -36,7 +36,7 @@ form input{
 }
 
 .sidebarMenu{
-    height: 55%;
+    height: 60%;
     position: fixed;
     right: 0;
     top: 0;
@@ -74,7 +74,7 @@ form input{
     margin-top: 3px;
     
   }
-  #openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.middle{
+  /* #openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.middle{
     opacity: 0;
   }
   #openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.top{
@@ -84,7 +84,7 @@ form input{
   #openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.bottom{
     transform: rotate(-135deg);
     margin-top: -9px
-  }
+  } */
 @media screen and (max-width: 1042px) {
     nav {
       display: none;
