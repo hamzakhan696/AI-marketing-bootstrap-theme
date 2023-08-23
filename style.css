@@ -41,11 +41,10 @@ form input{
     top: 0;
     width: 270px;
     margin-top: 0px;
-    background-color: #111111
-;
+    background-color: #111111;
     transform: translateX(270px);
     transition: transform 250ms ease-in-out;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     
   }
   #openSidebarMenu:checked ~ .sidebarMenu{
@@ -54,9 +53,7 @@ form input{
   .sidebarIconToggle{
     width: 22px;
     height: 22px;
-   z-index: 99999;
-    top: 34px;
-    right: 55px;
+    z-index: 99999;
     cursor: pointer;
     padding-top: 3px;
     padding-left: 3px;
