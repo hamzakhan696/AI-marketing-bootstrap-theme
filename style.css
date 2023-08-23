@@ -4,7 +4,6 @@
 }
 body{
     background-color: #000;
-    overflow-x: hidden;
 }
 /* header{
     background-color: #000;
@@ -179,6 +178,11 @@ header p{
     font-weight: 400;
     margin-top: 2%;
   }
+  @media screen and (max-width: 992px) {
+    .section-1 p{
+        text-align: center;
+      }
+}
   /* section-2 */
   
   .section-2 h1{
@@ -326,7 +330,6 @@ section-3 */
     }
     .section-4-content{
         text-align: center;
-        
     }
   }
   /* section-5 */
