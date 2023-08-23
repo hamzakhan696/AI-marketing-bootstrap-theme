@@ -9,6 +9,9 @@ body{
     background-color: #000;
 } */
 
+h1{
+    font-family: Al Nile;
+}
 .navbar .navbar-nav .nav-item a{
 color: #fff;
 }
@@ -423,11 +426,17 @@ section-3 */
     background-color: #000;
     font-family: Montserrat;
 }
+/* @media screen and (max-width: 992px) {
+    .email-input inp {
+       margin-left: 10% !important;
+}
+} */
 @media screen and (max-width: 992px) {
     .email-input button {
       width: 100%;
-      margin-top: 5%;
+      margin-top: 2%;
       margin-bottom: 5%;
+     
     }
     .email-input input{
         width: 100% !important;
