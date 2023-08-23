@@ -102,7 +102,9 @@ form input{
     margin-top: 10%;
 }
 /* header */
-
+.sidebar{
+    overflow-x: hidden;
+}
 header h1{
     font-size: 60px;
     font-weight: 400;
