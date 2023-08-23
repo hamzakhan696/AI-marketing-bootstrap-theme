@@ -292,6 +292,13 @@ section-3 */
     .section-4 .lady-image{
         display: flex;
         justify-content: center;
+        margin-left: 10%;
+    }
+     .section-4 {
+       margin-left: 2%;
+    }
+    .section-4-content{
+        text-align: center;
     }
 }
 
@@ -330,12 +337,7 @@ section-3 */
         display: flex;
         justify-content: center;
     }
-    .section-4 {
-        margin-left: 5%;
-    }
-    .section-4-content{
-        text-align: center;
-    }
+   
   }
   /* section-5 */
 .section-6 h1{
