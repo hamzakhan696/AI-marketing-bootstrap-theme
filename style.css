@@ -137,7 +137,7 @@ header p{
     background-color: transparent;
     border-radius: 23px;
     border: 1px solid #5200FF ;
-    border-
+
     /* border-color:  linear-gradient(219deg, #00F0FF 0%, #5200FF 48.25%, #FF2DF7 100%); */
 }
 
@@ -189,6 +189,16 @@ header p{
     .section-1 p{
         text-align: center;
       }
+    
+}
+@media screen and (min-width: 992px) {
+#view-more,#view-more2,#view-more3{
+    display: none;
+  }
+}
+.section-1 button{
+    border: 1px solid #5200FF;
+    padding: 10px;
 }
   /* section-2 */
   
