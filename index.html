@@ -297,7 +297,7 @@
                     <h1 class="text-white py-8">Get exponential reach via <span class="font-bold">AI Marketing</span></h1>
                     <div class="email-input lg:flex items-center">
                       <input type="text" placeholder="Enter your work email" class="border rounded py-3 focus:outline-none">
-                      <button class="text-white px-6 py-3 ml-2 ">Get in touch<span class="gradient-icon"><i class="fa fa-arrow-right mx-2" aria-hidden="true"></i></span></button>
+                      <button class="text-white px-6 py-3 ml-2  ">Get in touch<span class="gradient-icon"><i class="fa fa-arrow-right mx-2" aria-hidden="true"></i></span></button>
                     </div> 
                 </div>
             </div>
@@ -308,26 +308,38 @@
 <!-- images-section -->
 <div class="section-1">
   <div class="container mx-auto px-6 py-12">
-        <div class="row mt-5">
-          <div class="logo"><img src="images/Google cloud.png" alt=""></div>
-          <div class="logo"><img src="images/Ebay.png" alt=""></div>
-          <div class="logo"><img src="images/Tux.png" alt=""></div>
-          <div class="logo"><img src="images/Spotify.png" alt=""></div>
-          <div class="logo"><img src="images/Airbnb.png" alt=""></div>
-          <div class="logo"><img src="images/Facebook.png" alt=""></div>
-          <div class="logo"><img src="images/Coca Cola.png" alt=""></div>
-        </div>
-        <div class="row mt-5">
-          <div class="logo"><img src="images/Zoom.png" alt=""></div>
-          <div class="logo"><img src="images/Creative Cloud.png" alt=""></div>
-          <div class="logo"><img src="images/Netflix.png" alt=""></div>
-          <div class="logo"><img src="images/Discord.png" alt=""></div>
-          <div class="logo"><img src="images/Figma.png" alt=""></div>
-          <div class="logo"><img src="images/Paypal.png" alt=""></div>
-          <div class="logo"><img src="images/Adobe.png" alt=""></div>
-        </div>
-        <p class="mx-auto py-8">Trusted by the world’s most ambitious teams.</p>
+    <div id="image-container4" class="grid grid-cols-4 lg:grid-cols-7 gap-12 mt-12">
+      <div class="logo"><img src="images/Google cloud.png" alt=""></div>
+      <div class="logo"><img src="images/Ebay.png" alt=""></div>
+      <div class="logo"><img src="images/Tux.png" alt=""></div>
+      <div class="logo"><img src="images/Spotify.png" alt=""></div>
+      <div class="logo hidden lg:block"><img src="images/Airbnb.png" alt=""></div>
+      <div class="logo hidden lg:block"><img src="images/Facebook.png" alt=""></div>
+      <div class="logo hidden lg:block"><img src="images/Coca Cola.png" alt=""></div>
+      <div class="logo hidden"><img src="images/Zoom.png" alt=""></div>
+      <div class="logo hidden"><img src="images/Creative Cloud.png" alt=""></div>
+      <div class="logo hidden"><img src="images/Netflix.png" alt=""></div>
+      <div class="logo hidden"><img src="images/Discord.png" alt=""></div>
+      <div class="logo hidden "><img src="images/Figma.png" alt=""></div>
+      <div class="logo hidden"><img src="images/Paypal.png" alt=""></div>
+      <div class="logo hidden"><img src="images/Adobe.png" alt=""></div>
+    </div>
+    <div class="view-more-2 mt-4 mx-auto">
+      <button id="view-more-2" class="mt-4   mx-auto text-white font-semibold cursor-pointer">View More</button>
+    </div>
+
+    <div id="image-container5" class="grid grid-cols-4 lg:grid-cols-7 gap-12 mt-12 mb-8">
+      <div class="logo"><img src="images/Zoom.png" alt=""></div>
+      <div class="logo"><img src="images/Creative Cloud.png" alt=""></div>
+      <div class="logo"><img src="images/Netflix.png" alt=""></div>
+      <div class="logo"><img src="images/Discord.png" alt=""></div>
+      <div class="logo hidden lg:block"><img src="images/Figma.png" alt=""></div>
+      <div class="logo hidden lg:block"><img src="images/Paypal.png" alt=""></div>
+      <div class="logo hidden lg:block"><img src="images/Adobe.png" alt=""></div>
+    </div>
   </div>
+  <p class="mx-auto py-2 mb-4">Trusted by the world’s most ambitious teams.</p>
+  
  </div>
  <!-- footer -->
  <div class="container mx-2">
@@ -389,6 +401,28 @@
   document.addEventListener("DOMContentLoaded", function () {
       const viewMoreButton = document.getElementById("view-more");
       const imageContainer = document.getElementById("image-container");
+      const allImages = imageContainer.querySelectorAll(".logo");
+
+
+      viewMoreButton.addEventListener("click", function () {
+          // Toggle the 'hidden' class for extra images
+          for (let i = 3; i < allImages.length; i++) {
+              allImages[i].classList.toggle("hidden");
+          }
+
+          // Change button text
+          if (viewMoreButton.textContent === "View More") {
+              viewMoreButton.textContent = "View Less";
+          } else {
+              viewMoreButton.textContent = "View More";
+          }
+      });
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      const viewMoreButton = document.getElementById("view-more-2");
+      const imageContainer = document.getElementById("image-container4");
       const allImages = imageContainer.querySelectorAll(".logo");
 
 
