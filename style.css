@@ -292,6 +292,7 @@ section-3 */
     font-weight: 600;
     line-height: 196.9%;
   }
+  
   .section-4-content h1{
     font-size: 24px;
     font-weight: 700;
@@ -302,6 +303,12 @@ section-3 */
     font-weight: 500;
     font-family: Al Nile;
   }
+  .man-image,.lady2-image{
+    margin-bottom: 20%;
+  }
+  .man-image img,.lady2-image img{
+    border-radius: 40px;
+  }
 .circle-icons i{
     font-size: 13px;
 }
@@ -309,10 +316,10 @@ section-3 */
     .circle-icons {
         margin-top: 10%;
     }
-    .section-4 .lady-image{
+    .section-4 .lady-image,.lady2-image,.man-image{
         display: flex;
         justify-content: center;
-        margin-left: 10%;
+      
     }
      .section-4 {
        margin-left: 2%;
@@ -320,6 +327,18 @@ section-3 */
     .section-4-content{
         text-align: center;
     }
+    .w-full h1{
+        text-align: center !important;
+    }
+}
+@media screen and (min-width: 992px) {
+    .w-full {
+        display: flex;
+        
+    }
+    .section-4-content,.discord-img{
+        margin-left: -15%;
+      }
 }
 
 /* section-5 */
@@ -464,7 +483,7 @@ section-3 */
     height: 1px;
 }
 footer h1{
-    font-family: Montserrat
+    font-family: Montserrat;
     font-size: 22px;
     color: #fff;
 }
