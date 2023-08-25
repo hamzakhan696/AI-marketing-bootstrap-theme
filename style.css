@@ -445,13 +445,12 @@ section-3 */
 .email-input input::placeholder{
     padding-left: 30px;
     color: #fff;
-    font-size: 20px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 .email-input button {
     border-radius: 30px;
     background-color: #000;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 /* @media screen and (max-width: 992px) {
     .email-input inp {
@@ -501,23 +500,27 @@ section-3 */
     height: 1px;
 }
 footer h1{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: #fff;
 }
 @media screen and (max-width: 767px) {
     footer h1{
         color: #fff;
-        font-family: Montserrat;
-        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 3%;
     }
     
 }
 @media screen and (max-width: 502px) {
     footer h1{
         color: #fff;
-        font-family: Montserrat;
-        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 3%;
     }
     
 }
