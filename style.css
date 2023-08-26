@@ -79,6 +79,19 @@ form input{
     margin-top: 3px;
     
   }
+  .sidebarMenu .navbar-btn button{
+    color: #000;
+    font-weight: 600;
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 5%;
+    ;
+  }
+  .sidebarMenu .navbar-btn .Sign-up{
+
+  }
  
 @media screen and (max-width: 1042px) {
     nav {
@@ -144,7 +157,7 @@ header p{
         margin-top: 20%;
     }
     header p{
-        font-size: 18px;
+        font-size: 16px;
     }
     header h2{
         font-size: 40px !important;
@@ -401,6 +414,21 @@ section-3 */
     }
    
   }
+  @media screen and (max-width: 582px) {
+    .section-5 p,.section-2 p{
+        font-size: 15px;
+    }
+    .section-4-content p{
+         font-size: 15px;
+       }
+       .section-4-content h1{
+        font-size: 20px;
+       }
+       .section-4-content h2{
+        font-size: 16px;
+       }
+}
+    
   /* section-6 */
 .section-6 h1{
     font-size: 40px;
@@ -436,6 +464,9 @@ section-3 */
     .square-image{
         display: flex;
         justify-content: center;
+    }
+    .section-6 p{
+       font-size: 15px;
     }
   }
   /* section-7 */
