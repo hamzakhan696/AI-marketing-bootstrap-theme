@@ -451,6 +451,8 @@ section-3 */
     border-radius: 30px;
     background: rgba(255, 255, 255, 0.20);
     border: none;
+    color: #fff;
+    padding-left: 10%;
     
 }
 .email-input input::placeholder{
@@ -462,6 +464,7 @@ section-3 */
     border-radius: 30px;
     background-color: #000;
     font-family: 'Montserrat', sans-serif;
+    ;
 }
 /* @media screen and (max-width: 992px) {
     .email-input inp {
