@@ -112,6 +112,7 @@ form input{
   }
 .sidebarMenu .search-bar input{
     margin-top: 10%;
+    width: 100%;
 }
 /* header */
 .sidebar{
@@ -206,7 +207,7 @@ header p{
     color: #fff;
     font-size: 20px;
     font-weight: 400;
-    margin-top: 2%;
+    margin-bottom: 12%;
   }
   .section-1 .logo,.section-8 .logo{
     width: 100%;
