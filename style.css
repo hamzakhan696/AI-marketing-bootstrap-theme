@@ -24,6 +24,7 @@ form input{
     background-color: rgba(81, 88, 104, 1);
     border: none;
     height: 50%;
+    color: #fff;
 }
 .navbar-btn .Sign-up{
     border: 0.599px solid #9E9C9C;
@@ -89,8 +90,8 @@ form input{
     margin-top: 5%;
     ;
   }
-  .sidebarMenu .navbar-btn .Sign-up{
-
+  .sidebarMenu input{
+    color: #fff;
   }
  
 @media screen and (max-width: 1042px) {
