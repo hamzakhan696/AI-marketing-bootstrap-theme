@@ -339,6 +339,9 @@ section-3 */
     font-weight: 500;
     font-family: 'Al Nile', Arial, sans-serif;
   }
+  .section-4 .lady-image img,.section-4 .man-image img ,.section-4 .lady2-image img{
+   width: 100%;
+  }
   .man-image,.lady2-image{
     margin-bottom: 20%;
   }
