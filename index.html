@@ -61,12 +61,17 @@
         <div class="spinner middle mb-1"></div>
         <div class="spinner bottom"></div>
       </label>
-    
+     
    
    <div class="sidebarMenu">
+    
+    <div class="close-btn mt-4 px-5" onclick="closeSidebar()">✖</div>
     <div class="search-bar pb-8 px-3">
-      <input type="text" placeholder="Search DOML" class="border rounded px-1 py-2 focus:outline-none focus:ring focus:border-blue-300">
+      <input type="text" placeholder="Search DOML" class="border rounded px-2 py-2 focus:outline-none focus:ring focus:border-blue-300">
   </div>
+
+  
+
     <ul class="space-y-5  px-4">
       <li><a href="#" class="text-white">Product</a></li>
       <li><a href="#" class="text-white">Team</a></li>
@@ -466,7 +471,11 @@
 
 
 
- 
+ <script>
+   function closeSidebar() {
+            document.getElementById("openSidebarMenu").checked = false;
+        }
+ </script>
  <script>
   const slides = document.querySelectorAll('.flex-shrink-0');
   const dots = document.querySelectorAll('.bg-gray-300');
