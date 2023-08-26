@@ -190,24 +190,26 @@
          <div class="section-3">
           <div class="container mx-auto px-4 md:px-12">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
-              <div class="col-span-1 md:mt-5">
-                <div class="rectangular-image">
-                    <img src="images/18.png" alt="image">
-                </div>
-            </div>
-                <div class="col-span-1 md:mt-5">
-                    <div class="section-3-content mt-5 ml-32">
-                        <h1>AI Marketing.</h1>
-                        <h2>Optimized Reach.</h2>
-                        <p class="mt-3">It's all about getting your message in front of the right audience and creating those valuable <span style="color: #0075FF;">relationships.</span> Learn More about how DOML can help you do just that - all with a simple, easy-to-use platform.</p>
-                        <div class="underline my-8"></div>
-                        <div class="learn-more-btn">
-                            <button class="text-white px-10 py-2">Learn more<span class="gradient-icon"><i class="fa fa-arrow-right mx-2" aria-hidden="true"></i></span></button>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
+              <!-- For small devices, reverse the order of the columns -->
+              <div class="col-span-1 md:mt-5 lg:order-2">
+                  <div class="section-3-content mt-5 ml-32">
+                      <h1>AI Marketing.</h1>
+                      <h2>Optimized Reach.</h2>
+                      <p class="mt-3">It's all about getting your message in front of the right audience and creating those valuable <span style="color: #0075FF;">relationships.</span> Learn More about how DOML can help you do just that - all with a simple, easy-to-use platform.</p>
+                      <div class="underline my-8"></div>
+                      <div class="learn-more-btn">
+                          <button class="text-white px-10 py-2">Learn more<span class="gradient-icon"><i class="fa fa-arrow-right mx-2" aria-hidden="true"></i></span></button>
+                      </div>
+                  </div>
+              </div>
+              <!-- For small devices, this column will appear on top -->
+              <div class="col-span-1 md:mt-5 lg:order-1">
+                  <div class="rectangular-image">
+                      <img src="images/18.png" alt="image">
+                  </div>
+              </div>
+          </div>
+          
         </div>
   
          </div>
@@ -364,24 +366,32 @@
     <div class="section-6 py-8 pb-32">
       <div class="container mx-auto px-4 md:px-12">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
-          <div class="col-span-1 md:mt-5">
-            <div class="rectangular-image">
-                <img src="images/22.png" alt="image">
-            </div>
-        </div>
-            <div class="col-span-1 md:mt-5">
-                <div class="section-6-content mt-5 ml-32">
-                    <h1>AI Marketing.</h1>
-                    <h2>Optimized Reach.</h2>
-                    <p class="mt-3">It's all about getting your message in front of the right audience and creating those valuable relationships. Learn More about how DOML can help you do just that - all with a simple, easy-to-use platform.</p>
-                    <div class="underline my-8"></div>
-                    <div class="learn-more-btn">
-                        <button class="text-white px-10 py-2">Learn more<span class="gradient-icon"><i class="fa fa-arrow-right mx-2" aria-hidden="true"></i></span></button>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
+          <!-- For small devices, reverse the order of the columns -->
+          <div class="col-span-1 md:mt-5 lg:order-2"> <!-- Order 2 for larger devices to keep it on the right -->
+              <div class="section-6-content mt-5 ml-32">
+                  <h1>AI Marketing.</h1>
+                  <h2>Optimized Reach.</h2>
+                  <p class="mt-3">It's all about getting your message in front of the right audience and creating those valuable relationships. Learn More about how DOML can help you do just that - all with a simple, easy-to-use platform.</p>
+                  <div class="underline my-8"></div>
+                  <div class="learn-more-btn">
+                      <button class="text-white px-10 py-2">Learn more<span class="gradient-icon"><i class="fa fa-arrow-right mx-2" aria-hidden="true"></i></span></button>
+                  </div>
+              </div>
+          </div>
+          <!-- For small devices, this column will appear on top -->
+          <div class="col-span-1 md:mt-5 lg:order-1"> <!-- Order 1 for larger devices to keep it on the left -->
+              <div class="rectangular-image">
+                  <img src="images/22.png" alt="image">
+              </div>
+          </div>
+      </div>
+      In this code, we've used the lg:order classes to control the order of the columns based on screen size. On larger screens (lg breakpoint and above), the image remains on the left, while on smaller screens (md breakpoint and below), the content appears on top. This should achieve the desired responsive layout you mentioned.
+      
+      
+      
+      
+      
+      
     </div>
 
      </div>
