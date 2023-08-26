@@ -311,6 +311,9 @@ section-3 */
         margin-left: 0% !important;
         margin-bottom: 10%;
     }
+    .section-3-content p{
+        font-size: 15px;
+    }
   }
 
   /* section-4 */
